@@ -35,7 +35,7 @@ ORDER BY
 
 -- task(5) - Вывести контактные имена клиентов, кроме тех, что из France и USA.
 SELECT 
-	ContactName@
+	ContactName
 FROM Customers
 WHERE
 	Country NOT IN ('France', 'USA')
